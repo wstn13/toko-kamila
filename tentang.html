@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Toko Baju Modern</title>
+  <style>
+    /* Umum */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Header */
+    header {
+      background-color: #302f2e;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      text-align: left;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .logo {
+      height: 100px;
+      width: auto;
+      border-radius: 8px;
+    }
+
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #e67e22;
+    }
+
+    /* Bagian Hero Section */
+    .hero-section {
+      background: url('https://source.unsplash.com/1600x600/?fashion') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      font-size: 36px;
+      text-align: center;
+    }
+
+    /* Bagian Informasi atau Fitur Utama */
+    .features {
+      max-width: 1200px;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    .feature-item {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 8px;
+      text-align: center;
+      width: 250px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Bagian Footer */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Bagian Header -->
+  <header>
+    <div class="header-text">
+      <h1>Kamila Clothing Store</h1>
+      <p>Menyediakan Berbagai Fashion</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="logo-container">
+      <img src="logo2.png" alt="Logo Toko Baju Modern" class="logo">
+    </div>
+  </header>
+
+  <!-- Bagian Hero Section -->
+  <div class="hero-section">
+    Sambut Gaya Baru Anda Hari Ini
+  </div>
+
+  <!-- Bagian Informasi Utama (Fitur) -->
+  <section class="features">
+    <div class="feature-item">
+      <h3>Koleksi Lengkap</h3>
+      <p>Berbagai pilihan koleksi untuk semua kebutuhan Anda.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Desain Trendy</h3>
+      <p>Desain kekinian yang cocok untuk semua acara.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Harga Terjangkau</h3>
+      <p>Belanja tanpa khawatir dengan harga terbaik kami.</p>
+    </div>
+  </section>
+
+  <!-- Bagian Footer -->
+  <footer>
+    &copy; 2024 Kamila Clothing Store. Semua Hak Dilindungi.
+  </footer>
+</body>
+</html>

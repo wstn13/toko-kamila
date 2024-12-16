@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Produk - Toko Baju Modern</title>
+  <style>
+    /* Umum */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Header */
+    header {
+      background-color: #302f2e;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      text-align: left;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .logo {
+      height: 100px;
+      width: auto;
+      border-radius: 8px;
+    }
+
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #e67e22;
+    }
+
+    /* Bagian Produk */
+    .produk-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    .produk {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 10px;
+      text-align: center;
+      width: 250px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .produk img {
+      max-width: 100%;
+      border-radius: 5px;
+      height: 150px;
+      margin-bottom: 10px;
+    }
+
+    .produk h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .produk p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .produk button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #333;
+      border: none;
+      color: #fff;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .produk button:hover {
+      background-color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Bagian Header -->
+  <header>
+    <div class="header-text">
+      <h1>Kamila Clothing Store</h1>
+      <p>Menyediakan Berbagai Fashion</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="logo-container">
+      <img src="logo2.png" alt="Logo Toko Baju Modern" class="logo">
+    </div>
+  </header>
+
+  <!-- Bagian Produk -->
+  <main>
+    <section class="produk-container">
+      <!-- Produk 1 -->
+      <div class="produk">
+        <img src="blouse.jpeg" alt="Baju Casual Pria">
+        <h3>Kaila Blouse</h3>
+        <p>Rp 150.000</p>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="produk">
+        <img src="formal.jpeg" alt="Baju Formal Wanita">
+        <h3>Dress Formal</h3>
+        <p>Rp 180.000</p>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="produk">
+        <img src="skirt.jpeg" alt="Baju Santai">
+        <h3>Flower Skirt</h3>
+        <p>Rp 120.000</p>
+      </div>
+
+      <!-- Produk 4 -->
+      <div class="produk">
+        <img src="batik.jpeg" alt="Jaket Fashion">
+        <h3>Dress Batik Modern</h3>
+        <p>Rp 200.000</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bagian Footer -->
+  <footer>
+    &copy; 2024 Kamila Clothing Store. Semua Hak Dilindungi.
+  </footer>
+</body>
+
+</html>

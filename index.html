@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Toko Baju Modern</title>
+  <style>
+    /* Umum */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Header */
+    header {
+      background-color: #302f2e;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      text-align: left;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .logo {
+      height: 100px;
+      width: auto;
+      border-radius: 8px;
+    }
+
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #e67e22;
+    }
+
+    .hero {
+            background: url('https://source.unsplash.com/1600x500/?food') no-repeat center center/cover; /* Background image */
+            height: 480px; /* Height of hero section */
+            display: flex; /* Flexbox for alignment */
+            justify-content: flex-end; /* Align content to the right */
+            align-items: center; /* Center items vertically */
+            color: black; /* White text color */
+            padding: 0 50px; /* Padding for content */
+        }
+
+        .hero-content {
+            display: flex; /* Flexbox for logo and text */
+            align-items: center; /* Center items vertically */
+        }
+
+        .hero img {
+            width: 400px; /* Logo size */
+            margin-right: 20px; /* Space between logo and text */
+        }
+
+        .hero h2 {
+            font-size: 3rem; /* Font size for heading */
+        }
+
+        .hero p {
+            font-size: 1.5rem; /* Font size for paragraph */
+            margin-top: 10px; /* Space above paragraph */
+        }
+
+    /* Bagian Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Bagian Header -->
+  <header>
+    <div class="header-text">
+      <h1>Kamila Clothing Store</h1>
+      <p>Menyediakan Berbagai Fashion</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="logo-container">
+      <img src="logo2.png" alt="Logo Toko Baju Modern" class="logo">
+    </div>
+  </header>
+
+  <div class="hero">
+        <div class="hero-content">
+            <img src="gambar.png" alt="Logo Resto"> <!-- Logo di sebelah kiri -->
+            <div>
+                <h2>Menyediakan Fashion Dengan Desain Trendy</h2>
+                <p>Dan Yang Pasti Harga Terjangkau</p>
+            </div>
+        </div>
+    </div>
+
+  <!-- Bagian Footer -->
+  <footer>
+    &copy; 2024 Kamila Clothing Store. Semua Hak Dilindungi.
+  </footer>
+</body>
+</html>
